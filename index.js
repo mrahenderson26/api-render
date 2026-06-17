@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-    origin: "https://grand-custard-ed2051.netlify.app/"
+    origin: "https://grand-custard-ed2051.netlify.app"
 }));
 
 const PORT = process.env.PORT || 3000;
