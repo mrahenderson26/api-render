@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.json({
-    mensaje: "Probando con React Frontend en un servidor y Express en otro"
+    mensaje: "Probando con React en Netlify y Express en Render"
   });
 });
 
